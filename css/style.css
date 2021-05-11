@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body,html{height: 100%;}
+ul,ol{list-style : none;}
+
+button + dl{
+  display: none;
+}
+
+button.on + dl{
+  display : block;
+}
+
+dt{
+  font-size : 18px;
+  height : 24px;
+  line-height: 24px;
+  color : #222;
+}
+
+dd{
+  font-size : 16px;
+  line-height: 18px;
+  color : #999;
+}
